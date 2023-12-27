@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/bottomMainFragment">
+
+    <fragment
+        android:id="@+id/bottomMainFragment"
+        android:name="com.example.thebeatles.BottomMainFragment"
+        android:label="fragment_bottom_main"
+        tools:layout="@layout/fragment_bottom_main" />
+    <fragment
+        android:id="@+id/bottomSecondFragment"
+        android:name="com.example.thebeatles.BottomSecondFragment"
+        android:label="fragment_bottom_second"
+        tools:layout="@layout/fragment_bottom_second" />
+    <fragment
+        android:id="@+id/bottomThirdFragment"
+        android:name="com.example.thebeatles.BottomThirdFragment"
+        android:label="fragment_bottom_third"
+        tools:layout="@layout/fragment_bottom_third" />
+</navigation>
